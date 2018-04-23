@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>da5d1a3c-8e0a-4492-b4b5-1e6dd2476390</ProjectGuid>
+    <AutoAssignPort>True</AutoAssignPort>
+    <RunInSimulator>False</RunInSimulator>
+    <ApplicationPage>index.html</ApplicationPage>
+    <RootNamespace>TipCalculator</RootNamespace>
+    <Name>dxSample_Angular</Name>
+    <ScreenOrientation>Portrait</ScreenOrientation>
+    <ApplicationTitle>TipCalculator</ApplicationTitle>
+    <VersionPackage>1.0</VersionPackage>
+    <ShowSplashScreen>True</ShowSplashScreen>
+    <ApkDexFilePackageName>com.devextreme.TipCalculatorAngular</ApkDexFilePackageName>
+    <VersionCode>1</VersionCode>
+    <IpaDevicesFamily>iPhone</IpaDevicesFamily>
+    <BundleIdentifier>com.devextreme.TipCalculatorAngular</BundleIdentifier>
+    <DebugSitePortNumber>50000</DebugSitePortNumber>
+    <UseWebDev>False</UseWebDev>
+    <DefaultDevice>iPhone6</DefaultDevice>
+    <DeviceOrientation>Portrait</DeviceOrientation>
+    <DisplayUnhandledExceptions>True</DisplayUnhandledExceptions>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="cldr\main\" />
+    <Folder Include="cldr\main\de\" />
+    <Folder Include="cldr\main\ru\" />
+    <Folder Include="cldr\supplemental\" />
+    <Folder Include="css\" />
+    <Folder Include="css\icons\" />
+    <Folder Include="js\" />
+    <Folder Include="lib\" />
+    <Folder Include="lib\cldr\" />
+    <Folder Include="lib\cldr\main\" />
+    <Folder Include="lib\cldr\main\de\" />
+    <Folder Include="lib\cldr\main\ru\" />
+    <Folder Include="lib\cldr\supplemental\" />
+    <Folder Include="lib\globalize\" />
+    <Folder Include="lib\localization\" />
+    <Folder Include="cldr" />
+    <Folder Include="partials\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cldr\main\de\ca-gregorian.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="cldr\main\de\currencies.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="cldr\main\de\numbers.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="cldr\main\ru\ca-gregorian.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="cldr\main\ru\currencies.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="cldr\main\ru\numbers.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="cldr\supplemental\currencyData.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="cldr\supplemental\likelySubtags.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="cldr\supplemental\numberingSystems.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="cldr\supplemental\timeData.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="cldr\supplemental\weekData.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="cordova.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\app.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\dx.android5.light.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\dx.common.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\dx.ios7.default.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\dx.light.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\dx.spa.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\dx.win10.black.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\icons\dxicons.eot">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\icons\dxicons.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\icons\dxicons.woff">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="index.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\app.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\controllers.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\angular-route.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\angular-sanitize.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\angular.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\cldr.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\cldr\event.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\cldr\main\de\ca-gregorian.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\cldr\main\de\currencies.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\cldr\main\de\numbers.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\cldr\main\ru\ca-gregorian.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\cldr\main\ru\currencies.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\cldr\main\ru\numbers.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\cldr\supplemental.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\cldr\supplemental\currencyData.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\cldr\supplemental\likelySubtags.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\cldr\supplemental\numberingSystems.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\cldr\supplemental\timeData.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\cldr\supplemental\weekData.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\cldr\unresolved.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\dx.all.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\dx.mobile.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\globalize.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\globalize\currency.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\globalize\currency.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\globalize\date.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\globalize\date.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\globalize\message.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\globalize\message.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\globalize\number.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\globalize\number.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\jquery-1.12.3.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\jquery-2.2.3.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\localization\dx.all.de.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\localization\dx.all.ja.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\localization\dx.all.ru.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="partials\home.html">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <Target Name="Build">
+    <!--
+    <Message Text="'$(MSBuildToolsPath)'"></Message>
+    -->
+    <Message Text="Build JSProject '$(MSBuildProjectFile)':" Importance="high">
+    </Message>
+    <Message Text="Copying references to output dir." Importance="high" />
+    <MSBuild Targets="Build" Projects="@(ProjectReference)" Properties="OutputPath=$([System.IO.Path]::GetFullPath('$(OutputPath)'))">
+    </MSBuild>
+    <Message Text="Copying files to output dir." Importance="high" />
+    <Copy SourceFiles="@(Content)" DestinationFiles="@(Content->'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
+    <Message Text="Finished Build JSProject '$(MSBuildProjectFile)'." Importance="high">
+    </Message>
+  </Target>
+  <Target Name="CreateManifestResourceNames" Condition="'@(ResxWithNoCulture)@(ResxWithCulture)@(NonResxWithNoCulture)@(NonResxWithCulture)'!=''" />
+  <Target Name="Rebuild" DependsOnTargets="Clean;Build">
+  </Target>
+  <Target Name="Clean">
+    <!--
+    <Message Text="Cleaning Output files..." Importance="high" />
+    <Delete Files="@([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+    -->
+    <Message Text="Cleaning Output dir ($([System.IO.Path]::GetFullPath('$(OutputPath)')))..." Importance="high" />
+    <RemoveDir Directories="$([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+  </Target>
+</Project>
